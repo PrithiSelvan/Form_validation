@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./val.js"></script>
+</head>
+<body>
+<h1>Validation Form</h1>
+<div class="container">
+    <form id="form">
+        
+        <div class="input-control">
+            <label>Name:</label>
+            <input type="text" id="name"><br><br>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label>Email</label>
+            <input type="text" id="email"><br><br>
+            <div class="error"></div>
+        </div>
+        <div class="input-control"> 
+            <label>Phone Number</label>
+            <input type="text" id="phone"><br><br>
+            <div class="error"></div>
+        </div>
+         
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label>Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label>Female</label><br><br>
+         
+         
+            <label>Are you 18+</label>
+            <input type="checkbox"><br><br>
+         
+        <button type="submit" id="button">Submit</button>
+    </form>
+</div>
+</body>
+</html>
